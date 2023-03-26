@@ -2,13 +2,13 @@ name: Second workflow
 on: workflow_dispatch
 jobs:
   second-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print the first 2 numbers
         run: |
-            echo 1
-            echo 2
+            echo "1"
+            echo "2"
       - name: Print the last letters in the alpabeth
         run: |
-            echo y
+            echo "y"
             echo "z"
