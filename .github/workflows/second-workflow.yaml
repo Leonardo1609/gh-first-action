@@ -2,7 +2,7 @@ name: Second workflow
 on: workflow_dispatch
 jobs:
   second-job:
-    runs_on: windows-latest
+    runs-on: windows-latest
     steps:
       - name: Print the first 2 numbers
         run: |
